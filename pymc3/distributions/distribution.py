@@ -988,5 +988,6 @@ def generate_samples(generator, *args, **kwargs):
              size_tup == tuple() or
              size_tup == (1,))
     ):
-        samples = samples.reshape(samples.shape[:-1])
+        pass
+        #samples = samples.reshape(samples.shape[:-1])
     return np.asarray(samples)
